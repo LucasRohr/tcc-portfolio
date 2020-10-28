@@ -28,10 +28,13 @@
 
     & > .observe-inner-text {
       color: black;
-      font-weight: 500;
       font-size: 28px;
       line-height: 34px;
       text-align: left;
+
+      & > b {
+        font-weight: 500;
+      }
     }
   }
 

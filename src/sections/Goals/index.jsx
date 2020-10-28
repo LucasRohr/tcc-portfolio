@@ -10,13 +10,17 @@ export default function Goals() {
       <img className="goal-image" alt="Goal" src={goal} />
 
       <div className="goal-explanation">
-        This project can be fit in the number nine goal of sustainable development. Wich means that the main focus of
-        the project is to develop a innovative solution for a problem.
         <span className="goal-inner-text">
-          But what is our problem here? We choose to develop a system to help with the digital legacy challenge. And
-          what is it? <br /> <br />
-          Well, breafly, we all accumulate digital goods throughout or lives, but what happens to our most valuable
-          components of the digital patrimony when we pass away?
+          <b>This project can be fit into the ninth global goal sustainable development.</b> Which means that the main focus of
+          the project is to develop a innovative solution for a problem.
+        </span>
+        <span className="goal-inner-text">
+          <b>But what is our problem to be solved here?</b> We choose to develop a system to help with the process of digital legacy. But now,
+          you may ask yourself. What is this?
+        </span>
+        <span className="goal-inner-text">
+          Well, briefly, we all accumulate digital goods throughout or lives, <b>but what happens to our most valuable
+          components of the digital patrimony is often undefined nowadays.</b>
         </span>
       </div>
     </div>

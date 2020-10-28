@@ -10,14 +10,14 @@ export default function End() {
       <div className="end-info-wrapper">
         <div className="end-info-container">
           <span>
-            The project finds itself in the software development phase, after it's done, user tests with the system
-            are planned, followed by the solution's validation
+            The project finds itself in the software development phase. After it's done, user tests with the system
+            are planned, followed by the validation of the project.
           </span>
 
           <span>Thank you for your attention and stay tuned!</span>
         </div>
 
-        <span>Digital Legacy team</span>
+        <span>The Digital Legacy Team</span>
       </div>
     </div>
   )

@@ -12,7 +12,7 @@ export default function Care() {
 
         <span>
           We understand that asking for confidence in such a delicate challenge can be complicated. But we really want
-          to make a change in the digital legacy scenario. We want this because is a growing problem, that can
+          to make a change in the digital legacy scenario. We want this because it is a growing problem that can
           affect people in many ways, including the emotional way.
         </span>
 

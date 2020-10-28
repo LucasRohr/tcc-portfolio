@@ -10,14 +10,14 @@ export default function People() {
 
       <div className="people-cards-container">
         <div className="people-card">
-          Apart from being a matter that most people didn't ever thought about, the digital legacy problem may
+          Apart from being a matter that most people haven't ever thought about, the digital legacy issue may
           affect all of us. This can be sure as we all are technology users, we can observe this in each other
           everyday, in our routines
         </div>
 
         <div className="people-card">
           So our problem is very concrete and present all around us, and can impact everyone who has precious and
-          important data on their devices and online storages (what most of us have)
+          important data on their devices and online storages (as most of us can relate to)
         </div>
 
         <div className="people-card">
@@ -27,8 +27,8 @@ export default function People() {
         </div>
 
         <div className="people-card">
-          In the end, everyone of us can be a digital Legacy system user, because, as already said, we all have what
-          this matter is really about, the digital patrimony: photos, videos, documents and many more
+          In the end, everyone of us can be a digital legacy system user, because, as already said, we all have what
+          this matter is really about, the digital patrimony: photos, videos, documents, music and many more
         </div>
       </div>
     </div>

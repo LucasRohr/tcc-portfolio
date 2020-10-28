@@ -9,19 +9,19 @@ export default function Observe() {
   return (
     <div className="observe-container">
       <div className="observe-explanation">
-        <h2 className="observe-title"> What have we observed so far? </h2>
+        <h2 className="observe-title"> What have we seen so far? </h2>
 
         <span className="observe-inner-text">
           In a research made in the month of April 2020, we have discovered that most people never thought about what
-          happens to their data when they die.
+          happens to their data after they pass away.
           <br />
           <br />
-          Is it removed from databases? Is it protected? And what if I had the wish to pass to a loved one some
-          important documents and medias, like photos and videos?
+          Is it removed from databases? Is it protected? <b>And what if I had the wish to pass to a loved one some
+          important documents and medias, like photos and videos?</b>
           <br />
           <br />
           When we explained that the digital legacy, when integrated in a well designed system, can ensure a safe
-          passage of data from an owner to his/her heirs, people immediatly answered that the digital legacy
+          passage of data from an owner to their heirs, people immediatly answered that the digital legacy
           question is important.
           <br />
           <br />
