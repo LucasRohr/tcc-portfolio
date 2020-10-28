@@ -10,6 +10,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
+html,
+body,
+#root {
+  overflow-y: visible;
+}
+
 *::-webkit-scrollbar {
   width: 14px;
   scrollbar-width: thin;
