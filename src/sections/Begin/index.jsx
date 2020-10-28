@@ -11,11 +11,15 @@ export default function Begin() {
         <img className="logo-icon" alt="Logo" src={logo} />
         <div>
           <span className="begin-title">
-            Hello! This portfolio can help you understand about the digital heritage system
+            Digital Legacy System
           </span>
 
           <span className="begin-subtitle">
-            This TCC is being develop by the students Douglas Oliveira and Lucas Rohr
+            Hello! This portfolio can help you understand about our project
+          </span>
+
+          <span className="begin-authors">
+            Douglas Oliveira && Lucas Rohr, 2020-21
           </span>
         </div>
       </div>

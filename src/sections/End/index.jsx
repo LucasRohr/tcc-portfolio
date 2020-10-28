@@ -17,7 +17,7 @@ export default function End() {
           <span>Thank you for your attention and stay tuned!</span>
         </div>
 
-        <span>Digital Heritage team</span>
+        <span>Digital Legacy team</span>
       </div>
     </div>
   )

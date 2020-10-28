@@ -20,8 +20,8 @@ export default function Observe() {
           important documents and medias, like photos and videos?
           <br />
           <br />
-          When we explained that the digital heritage, when integrated in a well designed system, can ensure a safe
-          passage of data from an owner to his/her heirs, people immediatly answered that the digital heritage
+          When we explained that the digital legacy, when integrated in a well designed system, can ensure a safe
+          passage of data from an owner to his/her heirs, people immediatly answered that the digital legacy
           question is important.
           <br />
           <br />

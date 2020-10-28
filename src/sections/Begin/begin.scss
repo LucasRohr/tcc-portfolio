@@ -5,51 +5,55 @@
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
-  background-color: white;
-
+  align-items: flex-end;
+  background-color: $primary;
+  
   & > .begin-info-container {
     display: flex;
     align-items: center;
+    flex-direction: column;
     max-width: 65%;
-    background-color: white;
-    border: 4px solid $primary;
     padding: 28px 32px;
     transition: 0.3s;
 
     &:hover {
-      box-shadow: 2px 8px 16px $primary-light;
-
       & img {
         transform: scale(1.15);
       }
     }
 
     & > .logo-icon {
-      fill: $primary;
       width: 250px;
       height: 100px;
       transition: 0.3s;
+      margin-bottom: 2em;
     }
 
     & > div {
       display: flex;
       flex-direction: column;
-      align-items: flex-end;
+      align-items: center;
+
+      & > span {
+        text-align: center;
+        color: white;
+      }
 
       & > .begin-title {
         font-size: 38px;
         line-height: 46px;
-        text-align: right;
         margin-bottom: 26px;
-        color: $primary;
+        color: $white;
       }
 
       & > .begin-subtitle {
         font-size: 28px;
         line-height: 32px;
-        text-align: right;
-        color: $primary-dark;
+        color: $white;
+      }
+
+      & > .begin-authors {
+        font-size: 20px;
       }
     }
   }

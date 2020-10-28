@@ -16,14 +16,14 @@ export default function Solution() {
 
         <span>
           We defined our goal to be the development of a system that can enable the totally online process of the
-          digital heritage. In out solution, a user can act as an owner, who uploads his/her digital patrimony to be
+          digital legacy. In out solution, a user can act as an owner, who uploads his/her digital patrimony to be
           storaged in the system.
         </span>
 
         <span>
-          The solution ensures security and integrity of data while handling the heritage, using a criptographic keys
+          The solution ensures security and integrity of data while handling the legacy, using a criptographic keys
           system to store all types of information in a encrypted way. That been said, only users with the right
-          permissions are allowed to see heritage items. This includes the owner and the selected heirs that the owner
+          permissions are allowed to see legacy items. This includes the owner and the selected heirs that the owner
           can choose.
         </span>
 
@@ -31,7 +31,7 @@ export default function Solution() {
           This selection if free, from parents to friends. When an owner passes away, one of his/her heirs can use the
           system to upload a Digital Decease Certificate code, so the system can validate it using a public and secure
           platform (Registro Civil). If the digital document is in fact official and the owner is deceased, the heirs
-          can access their digital heritage.
+          can access their digital Legacy.
         </span>
 
         <span>

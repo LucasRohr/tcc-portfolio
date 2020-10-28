@@ -12,13 +12,13 @@ export default function Care() {
 
         <span>
           We understand that asking for confidence in such a delicate challenge can be complicated. But we really want
-          to make a change in the digital heritage scenario. We want this because is a growing problem, that can
+          to make a change in the digital legacy scenario. We want this because is a growing problem, that can
           affect people in many ways, including the emotional way.
         </span>
 
         <span>
           The fact that so many memories and unremarkable moments are within our digital patrimony, we want to offer a
-          system that can enable a digital heritage process in a secure and agile way, a way that everyone can trust
+          system that can enable a digital legacy process in a secure and agile way, a way that everyone can trust
           and make the best of.
         </span>
 
