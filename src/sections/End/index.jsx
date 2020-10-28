@@ -1,5 +1,7 @@
 import React from 'react'
 
+import './end.scss';
+
 export default function End() {
   return (
     <div className="end-container">

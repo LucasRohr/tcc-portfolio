@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+
+import './prototypes.scss';
 
 import mediasPrototype from "../../assets/medias_prototype.jpg";
 import warningPrototype from "../../assets/warning_prototype.jpg";

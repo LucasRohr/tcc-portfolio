@@ -1,5 +1,7 @@
 import React from 'react'
 
+import './care.scss'
+
 import care from "../../assets/care.svg";
 
 export default function Care() {

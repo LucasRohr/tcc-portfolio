@@ -1,5 +1,7 @@
 import React from 'react'
 
+import './solution.scss'
+
 import solution from "../../assets/solution.svg";
 
 export default function Solution() {

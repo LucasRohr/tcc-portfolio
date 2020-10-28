@@ -1,0 +1,65 @@
+@import "../../colors.scss";
+
+.observe-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $white;
+  padding: 50px 100px;
+
+  & > .observe-explanation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px 28px;
+    max-width: 58%;
+    margin-left: 50px;
+
+    & > .observe-title {
+      font-size: 36px;
+      line-height: 42px;
+      text-align: center;
+      margin-bottom: 26px;
+      color: $primary;
+    }
+
+    & > .observe-inner-text {
+      color: black;
+      font-weight: 500;
+      font-size: 28px;
+      line-height: 34px;
+      text-align: left;
+    }
+  }
+
+  & > .observe-images-container {
+    width: 28%;
+    min-height: 300px;
+    display: flex;
+    align-items: flex-end;
+    margin-right: 40px;
+
+    & > img {
+      &:first-child {
+        margin-right: 90px;
+        width: 180px;
+        height: 180px;
+        margin-bottom: 90px;
+        animation-iteration-count: infinite;
+        animation-name: netIcon;
+        animation-duration: 2.5s;
+      }
+
+      &:last-child {
+        width: 170px;
+        height: 170px;
+        animation-iteration-count: infinite;
+        animation-name: globeIcon;
+        animation-duration: 3.5s;
+      }
+    }
+  }
+}

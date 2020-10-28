@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+
+import './people.scss';
 
 export default function People() {
   return (

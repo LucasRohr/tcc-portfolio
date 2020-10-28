@@ -1,0 +1,41 @@
+@import "../../colors.scss";
+
+.care-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $white;
+  padding: 100px 200px;
+
+  & > .care-explanation {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 70px;
+
+    & > h1 {
+      font-size: 38px;
+      line-height: 40px;
+      text-align: left;
+      margin-bottom: 40px;
+      color: $primary-dark;
+    }
+
+    & > span {
+      font-size: 26px;
+      line-height: 30px;
+      text-align: left;
+      color: $black;
+      margin-bottom: 30px;
+    }
+  }
+
+  & > .care-illustration {
+    width: 30%;
+    margin-right: 180px;
+  }
+}

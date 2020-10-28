@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+
+import './observe.scss';
 
 import network from "../../assets/network.svg";
 import internet from "../../assets/internet.svg";
