@@ -24,6 +24,7 @@
       text-align: center;
       margin-bottom: 26px;
       color: $primary;
+      font-family: "NotoSans Regular";
     }
 
     & > .observe-inner-text {
@@ -33,7 +34,7 @@
       text-align: left;
 
       & > b {
-        font-weight: 500;
+        font-weight: 600;
       }
     }
   }

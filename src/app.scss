@@ -1,5 +1,37 @@
 @import "./colors.scss";
 
+$fonts-folder: "./fonts" !default;
+
+@font-face {
+  font-family: "Merriweather Black";
+  src: url('#{$fonts-folder}/Merriweather/Merriweather-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Merriweather Bold";
+  src: url('#{$fonts-folder}/Merriweather/Merriweather-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Merriweather Regular";
+  src: url('#{$fonts-folder}/Merriweather/Merriweather-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Merriweather Light";
+  src: url('#{$fonts-folder}/Merriweather/Merriweather-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "NotoSans Bold";
+  src: url('#{$fonts-folder}/Noto_Sans/NotoSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "NotoSans Regular";
+  src: url('#{$fonts-folder}/Noto_Sans/NotoSans-Regular.ttf') format('truetype');
+}
+
 .container {
   width: 100%;
   height: 100%;
@@ -8,6 +40,10 @@
   flex-direction: column;
   align-items: center;
   overflow: hidden;
+}
+
+h1, h2 {
+  font-family: "NotoSans Regular";
 }
 
 @keyframes goalScale {
@@ -84,11 +120,11 @@
   .container > .care-container {
     & > .care-explanation {
       & > h1 {
-        font-size: 26px;
+        font-size: 36px;
       }
 
       & > span {
-        font-size: 24px;
+        font-size: 22px;
       }
     }
 
