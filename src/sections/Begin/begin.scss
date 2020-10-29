@@ -1,0 +1,71 @@
+@import "../../colors.scss";
+
+.begin-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: $primary;
+
+  & > .begin-info-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+    max-width: 65%;
+    padding: 28px 32px;
+    transition: 0.3s;
+    justify-content: space-between;
+
+    & > div {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      
+      &:hover {
+        & img {
+          transform: scale(1.15);
+        }
+      }
+
+      & > .logo-icon {
+        width: 250px;
+        height: 100px;
+        transition: 0.3s;
+        margin-bottom: 2em;
+      }
+
+      & > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        & > span {
+          text-align: center;
+          color: white;
+        }
+
+        & > .begin-title {
+          font-size: 38px;
+          line-height: 46px;
+          margin-bottom: 26px;
+          color: $white;
+        }
+
+        & > .begin-subtitle {
+          font-size: 28px;
+          line-height: 32px;
+          color: $white;
+          font-family: "NotoSans Regular";
+        }
+      }
+    }
+
+    & > .begin-authors {
+      font-size: 20px;
+      color: white;
+      font-family: "NotoSans Regular";
+    }
+  }
+}
