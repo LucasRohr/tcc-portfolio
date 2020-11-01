@@ -1,0 +1,52 @@
+@import "../../colors.scss";
+
+.audience-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: $white;
+  padding: 50px 100px;
+
+  .audience-title {
+    font-size: 44px;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 120px;
+    color: $primary;
+    font-family: "NotoSans Regular";
+  }
+
+  .audience-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+
+    & > .audience-icon {
+      width: 18%;
+    }
+  }
+
+  .audience-explanation {
+    display: flex;
+    max-width: 30%;
+    font-size: 24px;
+    line-height: 38px;
+    color: $black;
+    font-weight: 600;
+
+    &:first-child {
+      text-align: left;
+      margin-left: 80px;
+    }
+
+    &:last-child {
+      text-align: right;
+      margin-right: 80px;
+    }
+  }
+}

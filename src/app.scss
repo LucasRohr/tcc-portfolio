@@ -4,32 +4,32 @@ $fonts-folder: "./fonts" !default;
 
 @font-face {
   font-family: "Merriweather Black";
-  src: url('#{$fonts-folder}/Merriweather/Merriweather-Black.ttf') format('truetype');
+  src: url("#{$fonts-folder}/Merriweather/Merriweather-Black.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Merriweather Bold";
-  src: url('#{$fonts-folder}/Merriweather/Merriweather-Bold.ttf') format('truetype');
+  src: url("#{$fonts-folder}/Merriweather/Merriweather-Bold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Merriweather Regular";
-  src: url('#{$fonts-folder}/Merriweather/Merriweather-Regular.ttf') format('truetype');
+  src: url("#{$fonts-folder}/Merriweather/Merriweather-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Merriweather Light";
-  src: url('#{$fonts-folder}/Merriweather/Merriweather-Light.ttf') format('truetype');
+  src: url("#{$fonts-folder}/Merriweather/Merriweather-Light.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "NotoSans Bold";
-  src: url('#{$fonts-folder}/Noto_Sans/NotoSans-Bold.ttf') format('truetype');
+  src: url("#{$fonts-folder}/Noto_Sans/NotoSans-Bold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "NotoSans Regular";
-  src: url('#{$fonts-folder}/Noto_Sans/NotoSans-Regular.ttf') format('truetype');
+  src: url("#{$fonts-folder}/Noto_Sans/NotoSans-Regular.ttf") format("truetype");
 }
 
 .container {
@@ -42,7 +42,8 @@ $fonts-folder: "./fonts" !default;
   overflow: hidden;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: "NotoSans Regular";
 }
 
@@ -157,5 +158,36 @@ h1, h2 {
 
   .end-info-container ~ span {
     margin-bottom: 80px;
+  }
+
+  .audience-container {
+    & > .audience-title {
+      margin-bottom: 70px;
+    }
+
+    & > .audience-wrapper > .audience-explanation {
+      font-size: 18px;
+      line-height: 28px;
+    }
+  }
+
+  .audience-needs-container {
+    & > .audience-needs-wrapper {
+      & > .audience-needs-explanation {
+        font-size: 18px;
+        line-height: 24px;
+      }
+
+      & > .audience-needs-icon {
+        min-width: 26%;
+      }
+    }
+
+    & > .audience-needs-bottom-explanations-wrapper > .audience-needs-larger-explanation {
+      font-size: 20px;
+      line-height: 26px;
+      margin-left: 0;
+      margin-top: 40px;
+    }
   }
 }
