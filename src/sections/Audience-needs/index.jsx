@@ -9,7 +9,7 @@ const AudienceNeeds = () => (
 
     <div className="audience-needs-wrapper">
       <span className="audience-needs-explanation">
-        Our focus is to help people who whant to plan and organize their digital legacy, but also for people who don't
+        Our focus is to help people who want to plan and organize their digital legacy, but also for people who don't
         know about, a great percentual, and present them to this reality, so we can offer them a tool to handle it. Our
         system will not solve the digital legacy issue, but it will help to ease it.
       </span>
@@ -17,7 +17,7 @@ const AudienceNeeds = () => (
       <img className="audience-needs-icon" src={legacy} alt="Application public needs" />
 
       <span className="audience-needs-explanation">
-        We aim to make people organization of the legacy agile and secure, for every type of user: people who want to
+        We aim to make people management of the legacy agile and secure, for every kind of user: people who want to
         save precious photos and videos of loved ones, important documents from family or work, online accounts
         credentials and many more needs that people may have regarding their digital legacy.
       </span>
@@ -34,7 +34,7 @@ const AudienceNeeds = () => (
       <span className="audience-needs-larger-explanation">
         By doing so, we want to help our users to achieve their goals as digital patrimony owners. These objectives can
         be numerous, but they are part of one primary objective: pass your digital identity and goods to people that you
-        love or care, so they will not be lost in a data sea and your work and memory will remain alive in an
+        love or care, so they will not be lost in a data sea and your legacy will remain alive in an
         increasingly technological world.
       </span>
     </div>
