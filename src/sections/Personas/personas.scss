@@ -1,0 +1,65 @@
+@import "../../colors.scss";
+
+.personas-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  & > .persona-card {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+
+    & > .persona-card-header {
+      background-color: $primary;
+      display: flex;
+      flex-direction: row;
+      padding: 0.5em;
+      font-size: 50px;
+      color: white;
+      justify-content: space-between;
+
+      & > .persona-card-header-values {
+        display: flex;
+        flex-direction: row;
+        & > .value {
+          background-color: $primary-light;
+          color: white;
+          padding: 0.25em 1em;
+          text-align: center;
+          font-family: "NotoSans Regular";
+          font-size: 20px;
+          width: fit-content;
+          height: fit-contents
+        }
+      }
+    }
+
+    & > .persona-card-body {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: .5em;
+
+      & > .persona-card-body-info {
+        display: flex;
+        flex-direction: column;
+
+        & > .persona-card-body-info-data {
+          font-family: "Merriweather Regular";
+          color: black;
+          font-size: 24px;
+          margin-bottom: .5em;
+          & > span {
+            font-family: "NotoSans Bold";
+            color: $primary;
+            margin-right: .5em;
+          }
+          & > p {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}
