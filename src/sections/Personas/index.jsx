@@ -1,20 +1,24 @@
 import React from 'react'
 
+import carlosPic from "../../assets/coolguy1.jpg";
 import './personas.scss'
 
 export default function Personas() {
   return (
     <div className="personas-container">
+      <h1 className="personas-title">Who is our public?</h1>
       <div className="persona-card">
         <div className="persona-card-header">
           <span>Carlos Vasconcellos</span>
           <div className="persona-card-header-values">
             <div className="value">Creative</div>
             <div className="value">Caring</div>
+            <div className="value">Planner</div>
           </div>
         </div>
         <div className="persona-card-body">
           <div className="persona-card-body-info">
+            <img src={carlosPic} alt="carlos himself" />
             <div className="persona-card-body-info-data">
               <span>Age</span>29
             </div>
@@ -34,7 +38,15 @@ export default function Personas() {
           <div className="persona-card-body-info">
             <div className="persona-card-body-info-data">
               <span>Biography</span>
-              <p></p>
+              <p>
+                Carlos is a notorious writer in the region. Not only for the chronicles he writes for one 
+                of the most popular newspapers of the city, but also for his books and blog posts about his 
+                life in the internet. He is married to his husband Ronaldo and, together, they adopted two 
+                children, which makes them a very nice family and inspiration for his work. However, Carlos 
+                is often writing new books which nobody knows about until it is released. Aware of the 
+                uncertanties of tomorrow, Carlos looks for a way to keep his unfinished works and family 
+                memories available to his family and friends even after he passes away.
+              </p>
             </div>
             <div className="persona-card-body-info-data">
               <span>Goals</span>
