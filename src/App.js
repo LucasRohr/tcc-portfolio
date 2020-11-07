@@ -8,8 +8,6 @@ import Care from "./sections/Care";
 import Solution from "./sections/Solution";
 import Prototypes from "./sections/Prototypes";
 import End from "./sections/End";
-import Audience from "./sections/Audience";
-import AudienceNeeds from "./sections/Audience-needs";
 import Personas from "./sections/Personas";
 
 function App() {
