@@ -4,6 +4,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  background-color: $primary-extra-light;
 
   & > .personas-title {
     font-size: 44px;
@@ -40,7 +41,7 @@
           font-family: "NotoSans Regular";
           font-size: 20px;
           height: fit-content;
-          margin: .25em;
+          margin: 0.25em;
         }
       }
     }
@@ -49,13 +50,15 @@
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      padding: .5em;
-      
+      padding: 1.5em;
+      background-color: $white;
+      margin-bottom: 50px;
+
       & > .persona-card-body-info {
         display: flex;
         flex-direction: column;
         margin-right: 2em;
-  
+
         & > :last-child {
           margin-right: 0;
         }
@@ -63,17 +66,19 @@
         & > img {
           width: 400px;
           height: 400px;
+          margin-right: 10px;
+          margin-bottom: 20px;
         }
 
         & > .persona-card-body-info-data {
           font-family: "Merriweather Regular";
           color: black;
           font-size: 24px;
-          margin-bottom: .5em;
+          margin-bottom: 0.5em;
           & > span {
             font-family: "NotoSans Bold";
             color: $primary;
-            margin-right: .5em;
+            margin-right: 0.5em;
           }
           & > p {
             text-align: justify;

@@ -1,0 +1,194 @@
+@import "../../colors.scss";
+
+@mixin emp-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px;
+
+  & h2 {
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: $primary;
+    font-family: "NotoSans Regular";
+  }
+
+  & span {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  & li {
+    margin-bottom: 14px;
+  }
+}
+
+.empathy-map-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $white;
+
+  & > .empathy-map-title {
+    font-size: 44px;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 60px;
+    color: $primary;
+    font-family: "NotoSans Regular";
+  }
+
+  & .section-separator {
+    width: 90%;
+    height: 1px;
+    background-color: $light-gray;
+  }
+
+  & > .empathy-map-body {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    margin-bottom: 100px;
+
+    & > .empathy-map-row {
+      width: 90%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      & > .empathy-map-card {
+        @include emp-card();
+      }
+    }
+  }
+
+  & .empathy-map-bottom-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & .empathy-map-say-do {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      max-width: 40%;
+      padding-bottom: 40px;
+
+      & h2 {
+        font-size: 28px;
+        line-height: 28px;
+        text-align: center;
+        color: $primary;
+        font-family: "NotoSans Regular";
+      }
+
+      & span {
+        font-size: 20px;
+        line-height: 28px;
+      }
+    }
+
+    & .empathy-map-bottom-separator-horizontal {
+      width: 60%;
+      height: 2px;
+      background-color: $light-gray;
+    }
+
+    & .empathy-map-bottom-content {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+
+      & .empathy-map-bottom-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 45%;
+        margin-top: 30px;
+
+        & h2 {
+          font-size: 28px;
+          line-height: 28px;
+          text-align: center;
+          color: $primary;
+          font-family: "NotoSans Regular";
+        }
+
+        & span {
+          font-size: 20px;
+          line-height: 28px;
+        }
+      }
+
+      & .empathy-map-bottom-separator {
+        width: 2px;
+        height: 180px;
+        margin: 0 50px;
+        background-color: $light-gray;
+        margin-top: 60px;
+      }
+    }
+  }
+
+  & .middle-card-left {
+    width: 40%;
+    @include emp-card();
+  }
+
+  & .middle-card-right {
+    width: 40%;
+    @include emp-card();
+  }
+
+  & .separator {
+    width: 70%;
+    height: 2px;
+    background-color: $light-gray;
+  }
+
+  & .top-left-separator {
+    transform: rotate(30deg);
+  }
+
+  & .top-right-separator {
+    transform: rotate(-30deg);
+  }
+
+  & .bottom-left-separator {
+    transform: rotate(-30deg);
+    width: 100%;
+    margin-top: 160px;
+  }
+
+  & .bottom-right-separator {
+    transform: rotate(30deg);
+    width: 100%;
+    margin-top: 160px;
+  }
+
+  & .empathy-user-icon-wrapper {
+    width: 22%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 36px;
+    border: 3px solid $primary;
+    border-radius: 50%;
+    margin: 40px 100px;
+    margin-bottom: 90px;
+  }
+
+  & .empathy-user-icon {
+    width: 100%;
+  }
+}

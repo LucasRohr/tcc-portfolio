@@ -190,4 +190,17 @@ h2 {
       margin-top: 40px;
     }
   }
+
+  & .top-left-separator {
+    margin-top: 180px;
+  }
+
+  & .top-right-separator {
+    margin-top: 180px;
+  }
+
+  & .empathy-map-container > .empathy-map-body > .empathy-map-row > .empathy-user-icon-wrapper {
+    width: 30%;
+    margin: 30px 60px;
+  }
 }
