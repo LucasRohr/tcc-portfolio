@@ -77,7 +77,7 @@ export default function EmpathyMap() {
               being a deep caring dad for his family. Both his two siblings and husband inspire Carlos for his
               everyday writing and they have a lot of beautiful memories together recorded in digital medias.
               He not only writes, but he also reads a lot. Carlos grows a collection of e-books, as he prefers reading
-              digitaççy. He stores his creations and these e-books in a password protected computer and cellphone, which
+              digitally. Carlos stores his creations and these e-books in a password protected computer and cellphone, which
               he is also very caring about.
             </span>
           </div>
