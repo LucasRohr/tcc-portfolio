@@ -2,7 +2,7 @@ import React from "react";
 
 import "./empathy-map.scss";
 
-import empathyUser from "../../assets/empathy-user.svg";
+import carlosPic from "../../assets/coolguy1.jpg";
 
 export default function EmpathyMap() {
   return (
@@ -20,12 +20,9 @@ export default function EmpathyMap() {
 
             <span>
               <ul>
-                <li>
-                  This person main preocupations are their marks in this world, and now more than ever, the marks are
-                  digital
-                </li>
-                <li>Their memories and valuable digital patrimony really counts</li>
-                <li>She/he feel worried about how to pass away lifetime data</li>
+                <li>Carlos' main preocupations are his marks in this world through his work and memories</li>
+                <li>His family memories and valuable digital patrimony, such as his literary intellectual property, really counts</li>
+                <li>He feels worried about the fact he can not be alive tomorrow</li>
               </ul>
             </span>
           </div>
@@ -35,13 +32,15 @@ export default function EmpathyMap() {
 
         <div className="empathy-map-row">
           <div className="middle-card-left">
-            <h2>What does she/he hear?</h2>
+            <h2>What does he hear?</h2>
 
             <span>
               <ul>
                 <li>News on the internet and television about the growing usage of technology</li>
                 <li>Doesn't hear close people talking about digital legacy</li>
                 <li>Hears about the theme on searches</li>
+                <li>Growing safety concerns about sharing personal and sensitive data remotely</li>
+                <li>The fact that a lot of people enjoy his work</li>
               </ul>
             </span>
 
@@ -49,18 +48,18 @@ export default function EmpathyMap() {
           </div>
 
           <div className="empathy-user-icon-wrapper">
-            <img className="empathy-user-icon" src={empathyUser} alt="Empathy user" />
+            <img className="empathy-user-icon" src={carlosPic} alt="Empathy user" />
           </div>
 
           <div className="middle-card-right">
-            <h2>What does she/he see?</h2>
+            <h2>What does he see?</h2>
 
             <span>
               <ul>
-                <li>This person see his/her digital patrimony as an important part of life</li>
-                <li>Sees that few services of digital legacy exist</li>
+                <li>Carlos sees his literature works, family memories, digital library and documents as an important part of life</li>
+                <li>Sees difficulty in a possible organized manual access of his work and memories by loved ones after his departure</li>
                 <li>
-                  Also notices that safety of digital data is crutial in a legacy system, because of sensible data
+                  Also notices that safety of digital data is crucial in a post-mortem access, due data sensibility and his postumous integrity
                 </li>
               </ul>
             </span>
@@ -71,12 +70,15 @@ export default function EmpathyMap() {
 
         <div className="empathy-map-bottom-container">
           <div className="empathy-map-say-do">
-            <h2>What she/he say and do?</h2>
+            <h2>What he says and does?</h2>
 
             <span>
-              This person can be like any of us. She/he can work in any area, like IT or marketing. As well as being an
-              extrovert or introvert person. The user has family and friends who really are important, they want to pass
-              the digital patrimony to them.
+              Carlos is a very creative writer and well-known for his books and newspaper chronicles, but also for
+              being a deep caring dad for his family. Both his two siblings and husband inspire Carlos for his
+              everyday writing and they have a lot of beautiful memories together recorded in digital medias.
+              He not only writes, but he also reads a lot. Carlos grows a collection of e-books, as he prefers reading
+              digitaççy. He stores his creations and these e-books in a password protected computer and cellphone, which
+              he is also very caring about.
             </span>
           </div>
 
@@ -88,9 +90,9 @@ export default function EmpathyMap() {
 
               <span>
                 <ul>
-                  <li>How to pass away digital legacy</li>
-                  <li>Sensible data safety</li>
-                  <li>How the system knows when I pass away?</li>
+                  <li>Not being sure how to make his ongoing work available for his family and friends after he passes</li>
+                  <li>Sensible data safety and integrity</li>
+                  <li>"How the system knows when I pass away?"</li>
                 </ul>
               </span>
             </div>
@@ -102,9 +104,10 @@ export default function EmpathyMap() {
 
               <span>
                 <ul>
-                  <li>Easy-to-use and agile system</li>
+                  <li>To have an easy-to-use and agile system</li>
                   <li>Have a secured digital legacy</li>
                   <li>Plan and organize digital items and heirs</li>
+                  <li>Keeping his work and collection alive</li>
                 </ul>
               </span>
             </div>
