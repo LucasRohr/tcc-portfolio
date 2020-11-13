@@ -13,7 +13,7 @@ export default function Personas() {
           <div className="persona-card-header-values">
             <div className="value">Creative</div>
             <div className="value">Caring</div>
-            <div className="value">Planner</div>
+            <div className="value">Inspiring</div>
           </div>
         </div>
         <div className="persona-card-body">
@@ -42,9 +42,10 @@ export default function Personas() {
                 Carlos is a notorious writer in the region. Not only for the chronicles he writes for one of the most
                 popular newspapers of the city, but also for his books and blog posts about his life in the internet. He
                 is married to his husband Ronaldo and, together, they adopted two children, which makes them a very nice
-                family and inspiration for his work. However, Carlos is often writing new books which nobody knows about
-                until it is released. Aware of the uncertanties of tomorrow, Carlos looks for a way to keep his
-                unfinished works and family memories available to his family and friends even after he passes away.
+                family and inspiration for his work. However, Carlos is often reading e-books from his digital library or 
+                writing new and authoral ones which nobody knows about until it is released. Aware of the uncertanties of
+                tomorrow, Carlos looks for a way to keep his unfinished works, e-book collection and family memories available
+                to his family and friends even after he passes away.
               </p>
             </div>
             <div className="persona-card-body-info-data">
