@@ -9,8 +9,9 @@ import Solution from "./sections/Solution";
 import Prototypes from "./sections/Prototypes";
 import End from "./sections/End";
 import Audience from "./sections/Audience";
-import EmpathyMap from "./sections/Empathy-map";
 import Personas from "./sections/Personas";
+import EmpathyMap from "./sections/Empathy-map";
+import PersonaResearch from "./sections/Persona-research";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Audience />
       <Personas />
       <EmpathyMap />
+      <PersonaResearch />
       <End />
     </div>
   );
