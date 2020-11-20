@@ -19,9 +19,9 @@ export default function PersonaResearch() {
           </span>
 
           <span>
-            Our primary objective is to develop a software solution to enable the process of digital legacy in an agile
-            and practical way to our public. As a secondary objetive, we aim to build this solution in the most secure
-            way, given the delicate subject that it handles.
+            Our primary objective is to develop a software solution to enable the process of digital legacy in an agile 
+            and practical way to our public. As a secondary objective, we aim to build this solution most securely, given
+            the delicate subject that it handles.
           </span>
         </div>
       </div>
@@ -31,15 +31,15 @@ export default function PersonaResearch() {
           <h2>The target public</h2>
 
           <span>
-            We have two types of target users,first, a group of people which possess digital assets economically or
+            We have two types of target users: First, a group of people that possesses digital assets economically or
             emotionally valuable, which makes these people concerned about the fate of this property and wanting to keep
             them accessible. This is a digital owner user profile.
           </span>
 
           <span>
-            On the other hand, we have people that are aware of the importance of both economical and emotional value of
-            the digital assets from their owners, they want to keep their legacy alive and acomplish their wishes. This
-            is a heir user profile.
+            On the other hand, we have people that are aware of the importance of both the economical and emotional value of
+            the digital assets from their owners, they want to keep their legacy alive and accomplish their wishes. This
+            is the heir user profile.
           </span>
         </div>
       </div>
@@ -49,18 +49,18 @@ export default function PersonaResearch() {
 
         <div className="persona-research-existing-data">
           <span>
-            We have made researches on existing scientific articles and researchers's works surrounding the digital
-            legacy subject. We focused in many works that people were involved in questionaries about how they feel and
+            We have made researches on existing scientific articles and researchers' papers surrounding the digital
+            legacy subject. We focused on many works that people were involved in questionaries about how they feel and
             think about the digital patrimony and how they pass it to other people.
           </span>
 
           <img className="persona-research-existing-data-icon" src={BookIcon} alt="Existing data" />
 
           <span>
-            We organized data and discussed about the results that these researches had various types of people, like
-            people with different ages, religions and other particularities. From that, we have built our own plan to
+            We organized data and discussed the results that these researches had various types of people, like
+            people of different ages, religions, and other particularities. From that, we have built our plan to
             acquire new data about the digital legacy and confirm or deny other authors conclusions based on their
-            previous researchs on the field.
+            previous researches on the field.
           </span>
         </div>
       </div>
@@ -68,23 +68,23 @@ export default function PersonaResearch() {
       <div className="persona-research-separator" />
 
       <div className="persona-research-new-data-wrapper">
-        <h2>And how we get new data?</h2>
+        <h2>And how do we get new data?</h2>
 
         <div className="persona-research-new-data-header">
           <span>
-            From previous researches on the field, we have built our own questions to acquire new data about the digital
-            legacy and confirm or deny other authors results.
+            From previous researches on the field, we have built our questions to acquire new data about the digital
+            legacy and confirm or deny other authors' results.
           </span>
 
           <span>
-            Starting from the elaborated questions, we made an online opinion research, this research had the objective
-            of collecting different potencial users thoughts regarding the digital legacy and related systems that could
+            Starting from the elaborated questions, we made an online opinion research. This research had the objective
+            of collecting different potential users thoughts regarding the digital legacy and related systems that could
             afford a solution for it.
           </span>
 
           <span>
-            The research is an online form with objective questions, however, some of them have open fields for
-            additional answers. The form was shared in social media platforms, like LinkedIn.
+            The research is an online form with objective questions. However, some of them have open fields for
+            additional answers. The form was shared on social media platforms, such as LinkedIn and Facebook.
           </span>
         </div>
 
@@ -93,8 +93,8 @@ export default function PersonaResearch() {
             <h2>Who is our target?</h2>
 
             <span>
-              Using an online form shared on virtual environment, we plan to hit people connected to technology that
-              could possibly be a digital legacy system user. We aimed for people that have access to internet and are
+              Using an online form shared in a virtual environment, we plan to hit people connected to technology that
+              could possibly be a digital legacy system user. We aimed for people that have access to the internet and are
               connected online, active on social media.
             </span>
           </div>
@@ -103,7 +103,7 @@ export default function PersonaResearch() {
             <h2>Where we do our research?</h2>
 
             <span>
-              We plan to share the research on social medias platforms, given that most user who have a digital
+              We plan to share the research on social media platforms, given that most users who have a digital
               patrimony use them. But we also plan to make a personal presentation of the theme for people in IFSul
               Sapucaia, so we can talk more effectively about the problem. After this presentation, we plan to present
               the form and ask them for answers.
@@ -114,13 +114,13 @@ export default function PersonaResearch() {
             <h2>When we do it?</h2>
 
             <span>
-              We have already made the online research about the subject using the social media share strategy. But we
+              We have already made an online research about the subject using the social media share strategy. But we
               plan to do another similar research when the system software is ready, with more specific questions about
-              the solution itself, to see users's views.
+              the solution itself, to see users' views.
             </span>
 
             <span>
-              The presential presentation and form discussion is planned to be made when classes at IFSul Sapucaia get
+              We plan to make the presential presentation and form discussion when classes at IFSul Sapucaia get
               back to normality.
             </span>
           </div>
@@ -130,12 +130,12 @@ export default function PersonaResearch() {
 
             <span>
               The sample group is composed of online users, especially most young people, as well as adults who are
-              connected to social media. We extimated for about 300 people as a total target number, including classes
+              connected to social media. We estimated about 300 people as a total target number, including classes
               students from IFSul.
             </span>
 
             <span>
-              This is a more larger participants total than in the studied researches from the digital legacy subject.
+              That is a broader sample of participants than the examined researches from the digital legacy subject.
             </span>
           </div>
         </div>
@@ -145,10 +145,8 @@ export default function PersonaResearch() {
 
           <div className="persona-research-new-data-questions-header">
             <span>
-              Bellow, we have the list of asked questions in the already made research and questions to be used in
-              future researches. The identity of all participants is anonymous.
+              We have listed below the asked questions in the already made research. We are also showing the questions which will be asked in future surveys. The identities of all participants are anonymous.
             </span>
-
             <img src={AnalysisIcon} alt="Research analysis" />
           </div>
 
@@ -157,7 +155,7 @@ export default function PersonaResearch() {
               <h2>Demography</h2>
 
               <ul className="persona-research-new-data-questions-list">
-                <li>What is your age?</li>
+                <li>How old are you?</li>
                 <li>Do you follow a religion?</li>
                 <li>How do you rank your familiarity with the technology? (1 to 5)</li>
                 <li>
@@ -172,7 +170,7 @@ export default function PersonaResearch() {
                     <li>Other (open field)</li>
                   </ul>
                 </li>
-                <li>Do you think an application's Terms of Use is important?</li>
+                <li>Do you think the Terms of Use of a online service/social media is important?</li>
               </ul>
             </div>
 
@@ -237,7 +235,7 @@ export default function PersonaResearch() {
                     <li>Total deletion of accounts and digital assets</li>
                     <li>Manage online accounts after death</li>
                     <li>Transmission of files of different types to heirs (images, videos, etc.)</li>
-                    <li>Instructions for what to do with digital goods</li>
+                    <li>Instructions for what to do with digital assets</li>
                     <li>Creation of digital memorials for the deceased</li>
                     <li>Other (open field)</li>
                   </ul>
@@ -250,10 +248,10 @@ export default function PersonaResearch() {
 
               <ul className="persona-research-new-data-questions-list">
                 <li>
-                  What are the chances that you would use a system to leave your digital legacy to someone else? (1 to
+                  What are the odds that you would use a system to leave your digital legacy to someone else? (1 to
                   5)
                 </li>
-                <li>What are the chances that you would use a system to inherit someone’s digital legacy? (1 to 5)</li>
+                <li>What are the odds that you would use a system to inherit someone’s digital legacy? (1 to 5)</li>
                 <li>Would you recommend a Digital Legacy system to an acquaintance?</li>
                 <li>How comfortable are you at addressing the issue of death and digital data? (1 to 5)</li>
                 <li>
@@ -275,27 +273,27 @@ export default function PersonaResearch() {
           <h2>What are our guidelines and observations?</h2>
 
           <div className="persona-research-new-data-guidelines-card">
-            First, we want to know demography data to make correlations, for example, tha age ranges of people who are
+            First, we want to know demography data to make correlations, for example, the age ranges of people who are
             active with technology
           </div>
 
           <div className="persona-research-new-data-guidelines-card">
-            We aim to discover if most of people know about Digital Legacy and what are their opinions about the subject
+            We aim to discover if most people know about Digital Legacy and what they think about the subject
           </div>
 
           <div className="persona-research-new-data-guidelines-card">
-            Another important point is to observe what is the best way people can think of when death validation is the
+            Another crucial point is to observe what is the best way people can think of when death validation is the
             concern
           </div>
 
           <div className="persona-research-new-data-guidelines-card">
-            We want to know the most valuable functionalities of a digital legacy system for these people, what trully
+            We want to know the most valuable functionalities of a digital legacy system for these people, what truly
             matters to them in a software solution for it
           </div>
 
           <div className="persona-research-new-data-guidelines-card">
             Also, we have the goal to know the degree of acceptability for a digital legacy system and if people would
-            really use it, as well as if their beliefs affect them when interacting with this system
+            use it, as well as if their beliefs affect them when interacting with this system
           </div>
         </div>
       </div>
