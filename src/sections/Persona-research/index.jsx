@@ -156,10 +156,40 @@ export default function PersonaResearch() {
 
               <ul className="persona-research-new-data-questions-list">
                 <li>How old are you?</li>
+                <li>Do you work/study?</li>
+                <li>How many hours a day are you occupied?</li>
+                <li>Are you occupied in the weekends?</li>
+                <li>Are you close to your relatives and friends?</li>
+                <li>Which is your occupation are?</li>
                 <li>Do you follow a religion?</li>
+                <li>Check below the leisure activities you often do:</li>
+                  <ul>
+                    <li>Sports</li>
+                    <li>Vídeogames</li>
+                    <li>Movies/series</li>
+                    <li>Videos/livestreams</li>
+                    <li>Reading</li>
+                    <li>Writing</li>
+                    <li>Traveling</li>
+                    <li>Music</li>
+                    <li>Digital arts</li>
+                    <li>Design</li>
+                    <li>Research</li>
+                    <li>I don't practice any leisure activities</li>
+                    <li>Other (open field)</li>
+                  </ul>
+              </ul>
+            </div>
+
+            <div className="persona-research-new-data-questions-wrapper">
+              <h2>Technology</h2>
+
+              <ul className="persona-research-new-data-questions-list">
                 <li>How do you rank your familiarity with the technology? (1 to 5)</li>
-                <li>
-                  Which social networks do you use?
+                <li>Do you often organize your files in your computer or cellphone?</li>
+                <li>Do you have many files (such as photos and videos) in your device(s)?</li>
+                <li>Do your digital assets have emotional or economic values? If yes, what kind of file is it?</li>
+                <li>Which social networks do you use?</li>
                   <ul>
                     <li>Facebook</li>
                     <li>Instagram</li>
@@ -169,8 +199,7 @@ export default function PersonaResearch() {
                     <li>I don't use social networks</li>
                     <li>Other (open field)</li>
                   </ul>
-                </li>
-                <li>Do you think the Terms of Use of a online service/social media is important?</li>
+                <li>Do you think the Terms of Use of an online service/social media are important?</li>
               </ul>
             </div>
 
