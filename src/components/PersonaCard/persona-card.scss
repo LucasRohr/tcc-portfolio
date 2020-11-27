@@ -68,7 +68,47 @@
         & > p {
           text-align: justify;
         }
+        & > .persona-card-body-info-data-image-container {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          margin-top: 0.5em;
+          & > img {
+            height: 80px;
+            width: auto;
+          }
+        }
+      }
+
+      & > .persona-card-body-info-personality {
+        display: flex;
+        flex-direction: column;
+        
+        & > .persona-card-body-info-personality-label {
+          display: flex;
+          justify-content: space-between;
+          font-family: "NotoSans Regular";
+          font-size: 24px;
+        }
+      }
+
+      & > .persona-card-body-info-quote {
+        display: flex;
+        align-items: center;
+        background-color: $primary-light;
+        align-self: center;
+        padding: 1em;
+        font-style: italic;
+        & > div {
+          &:first-child {
+            font-style: initial;
+            font-size: 80px;
+            font-family: "NotoSans Regular";
+          }
+          font-size: 24px;
+        }
       }
     }
+
   }
 }

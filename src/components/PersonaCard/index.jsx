@@ -14,6 +14,8 @@ export default function PersonaCard({
   bio = 'Sample Text',
   goals = [],
   frustrations = [],
+  personality = [],
+  brands = [],
 }) {
   return (
     <div className="persona-card">
@@ -43,13 +45,28 @@ export default function PersonaCard({
           <div className="persona-card-body-info-data">
             <span>Character</span>{character}
           </div>
+          {personality.map(dicotomy => (
+            <div className="persona-card-body-info-personality">
+              <div className="persona-card-body-info-personality-label">
+                <span>{dicotomy.typeA}</span>
+                <span>{dicotomy.typeB}</span>
+              </div>
+              <input type="range" min="1" max="100" value={dicotomy.range} />
+            </div>
+          ))}
+          <div className="persona-card-body-info-data">
+            <span>Brands</span>
+            <div className="persona-card-body-info-data-image-container">
+              {brands.map((brand, index) => (
+                <img src={brand} alt={`brand ${index}`} />
+              ))}
+            </div>
+          </div>
         </div>
         <div className="persona-card-body-info">
           <div className="persona-card-body-info-data">
             <span>Biography</span>
-            <p>
-              {bio}
-            </p>
+            <p>{bio}</p>
           </div>
           <div className="persona-card-body-info-data">
             <span>Goals</span>
@@ -66,6 +83,10 @@ export default function PersonaCard({
                 <li>{frustration}</li>
               ))}
             </ul>
+          </div>
+          <div className="persona-card-body-info-quote">
+            <div>"</div>
+            <div>I want to live forever through my art and memories.</div>
           </div>
         </div>
       </div>
