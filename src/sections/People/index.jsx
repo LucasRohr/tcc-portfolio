@@ -11,24 +11,22 @@ export default function People() {
       <div className="people-cards-container">
         <div className="people-card">
           Apart from being a matter that most people haven't ever thought about, the digital legacy issue may
-          affect all of us. This can be sure as we all are technology users, we can observe this in each other
+          affect all of us. This can be sure as we all are technology users, we can observe this in eachother
           everyday, in our routines
         </div>
 
         <div className="people-card">
-          So our problem is very concrete and present all around us, and can impact everyone who has precious and
+          So our problem is all around us, and can impact everyone who has precious and
           important data on their devices and online storages (as most of us can relate to)
         </div>
+      </div>
 
-        <div className="people-card">
+      <h2 style={{marginBottom: 50}}>What are the design challenges?</h2>
+      <div className="people-cards-container">
+        <div className="people-card" style={{textAlign: 'justify', flex: .7}}>
           We should immediatly design a way to help, but we have to design it clearly and most importantly: with
           security and integrity. That is a truth, because none of us want a system with security issues to handle
           data that describes who we were in life, such sensible content
-        </div>
-
-        <div className="people-card">
-          In the end, everyone of us can be a digital legacy system user, because, as already said, we all have what
-          this matter is really about, the digital patrimony: photos, videos, documents, music and many more
         </div>
       </div>
     </div>

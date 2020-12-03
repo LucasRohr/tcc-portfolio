@@ -11,18 +11,20 @@ export default function Care() {
         <h1>Why to trust our solution?</h1>
 
         <span>
-          We understand that asking for confidence in such a delicate challenge can be complicated. But we really want
-          to make a change in the digital legacy scenario. We want this because it is a growing problem that can
+          We respect and acknowledge the importance of taking care of your Digital Legacy.
+          This is our objective because it is a growing problem that can
           affect people in many ways, including the emotional way.
         </span>
 
         <span>
-          The fact that so many memories and unremarkable moments are within our digital patrimony, we want to offer a
-          system that can enable a digital legacy process in a secure and agile way, a way that everyone can trust
-          and make the best of.
+          Our system will be safe and trustworthy in order to people make their memories and unremarkable moments
+          live forever for the ones who you care and love. But it also will be agile to make this happen
         </span>
 
-        <span>This is what moves us, this is what makes us really care.</span>
+        <span>
+          Ensuring the planning and the care for your Digital Legacy is what moves us, 
+          this is what makes us really care.
+        </span>
       </div>
 
       <img className="care-illustration" src={care} alt="Problem Illustration" />

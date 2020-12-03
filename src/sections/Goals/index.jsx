@@ -19,7 +19,7 @@ export default function Goals() {
           you may ask yourself. What is this?
         </span>
         <span className="goal-inner-text">
-          Well, briefly, we all accumulate digital goods throughout or lives, <b>but what happens to our most valuable
+          Well, briefly, we all accumulate digital goods throughout our lives, such as photos, documents and social media. <b>But what happens to our most valuable
           components of the digital patrimony is often undefined nowadays.</b>
         </span>
       </div>
