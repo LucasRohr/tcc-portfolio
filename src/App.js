@@ -24,8 +24,8 @@ function App() {
       <Solution />
       <Prototypes />
       <Audience />
-      <Personas />
       <EmpathyMap />
+      <Personas />
       <PersonaResearch />
       <End />
     </div>
