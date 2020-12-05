@@ -51,5 +51,9 @@
       color: $black;
       margin-bottom: 30px;
     }
+
+    & > span.question {
+      font-weight: bold;
+    }
   }
 }

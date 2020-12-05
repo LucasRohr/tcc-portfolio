@@ -13,6 +13,10 @@ export default function Prototypes() {
       <div className="prototype-row">
         <div className="prototype-row-content">
           <span>Medias management</span>
+          <span className="description">
+            Here is where the owner can upload and manage the 
+            medias which will be inherited by the heirs.
+          </span>
           <img src={mediasPrototype} alt="Solution Illustration" />
         </div>
       </div>
@@ -21,6 +25,9 @@ export default function Prototypes() {
         <div className="prototype-row-content-warning">
           <img src={warningPrototype} alt="Solution Illustration" />
           <span>Deceased owner Digital Certificate validation</span>
+          <span className="description">
+            Here is where the heirs can upload the digital death certificate of the owner for validating his pass away
+          </span>
         </div>
       </div>
     </div>

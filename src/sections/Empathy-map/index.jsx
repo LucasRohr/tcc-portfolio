@@ -2,7 +2,7 @@ import React from "react";
 
 import "./empathy-map.scss";
 
-import carlosPic from "../../assets/coolguy1.jpg";
+import empathyUser from "../../assets/empathy-user.svg"
 
 export default function EmpathyMap() {
   return (
@@ -20,9 +20,12 @@ export default function EmpathyMap() {
 
             <span>
               <ul>
-                <li>Carlos' main preocupations are his marks in this world through his work and memories</li>
-                <li>His family memories and valuable digital patrimony, such as his literary intellectual property, really counts</li>
-                <li>He feels worried about the fact he can not be alive tomorrow</li>
+                <li>
+                  This person main preocupations are their marks in this world, and now more than ever, the marks are
+                  digital
+                </li>
+                <li>Their memories and valuable digital patrimony really counts</li>
+                <li>They are not aware about the issue around  the Digital Legacy</li>
               </ul>
             </span>
           </div>
@@ -32,15 +35,12 @@ export default function EmpathyMap() {
 
         <div className="empathy-map-row">
           <div className="middle-card-left">
-            <h2>What does he hear?</h2>
+            <h2>What does they hear?</h2>
 
             <span>
               <ul>
                 <li>News on the internet and television about the growing usage of technology</li>
-                <li>Doesn't hear close people talking about digital legacy</li>
-                <li>Hears about the theme on searches</li>
-                <li>Growing safety concerns about sharing personal and sensitive data remotely</li>
-                <li>The fact that a lot of people enjoy his work</li>
+                <li>How your online-self represents their true-self</li>
               </ul>
             </span>
 
@@ -48,19 +48,16 @@ export default function EmpathyMap() {
           </div>
 
           <div className="empathy-user-icon-wrapper">
-            <img className="empathy-user-icon" src={carlosPic} alt="Empathy user" />
+            <img className="empathy-user-icon" src={empathyUser} alt="Empathy user" />
           </div>
 
           <div className="middle-card-right">
-            <h2>What does he see?</h2>
+            <h2>What does they see?</h2>
 
             <span>
               <ul>
-                <li>Carlos sees his literature works, family memories, digital library and documents as an important part of life</li>
-                <li>Sees difficulty in a possible organized manual access of his work and memories by loved ones after his departure</li>
-                <li>
-                  Also notices that safety of digital data is crucial in a post-mortem access, due data sensibility and his postumous integrity
-                </li>
+                <li>They care for their data and files</li>
+                <li>A world being much more digitally centered than ever before</li>
               </ul>
             </span>
 
@@ -70,15 +67,11 @@ export default function EmpathyMap() {
 
         <div className="empathy-map-bottom-container">
           <div className="empathy-map-say-do">
-            <h2>What he says and does?</h2>
+            <h2>What they say and do?</h2>
 
             <span>
-              Carlos is a very creative writer and well-known for his books and newspaper chronicles, but also for
-              being a deep caring dad for his family. Both his two siblings and husband inspire Carlos for his
-              everyday writing and they have a lot of beautiful memories together recorded in digital medias.
-              He not only writes, but he also reads a lot. Carlos grows a collection of e-books, as he prefers reading
-              digitally. Carlos stores his creations and these e-books in a password protected computer and cellphone, which
-              he is also very caring about.
+              The user is very familiar to technology, having a lot of data and files in their personal devices and online services, 
+              such as social medias. They say that their digital assets (not in that word) are very important to them.
             </span>
           </div>
 
@@ -90,9 +83,9 @@ export default function EmpathyMap() {
 
               <span>
                 <ul>
-                  <li>Not being sure how to make his ongoing work available for his family and friends after he passes</li>
+                  <li>Not being sure how to make his data available for his family and friends in a posthumous scenario after realising about the issue.</li>
                   <li>Sensible data safety and integrity</li>
-                  <li>"How the system knows when I pass away?"</li>
+                  <li>To understand about Digital Legacy</li>
                 </ul>
               </span>
             </div>
@@ -107,7 +100,7 @@ export default function EmpathyMap() {
                   <li>To have an easy-to-use and agile system</li>
                   <li>Have a secured digital legacy</li>
                   <li>Plan and organize digital items and heirs</li>
-                  <li>Keeping his work and collection alive</li>
+                  <li>Keeping their data manageable for their trusted ones</li>
                 </ul>
               </span>
             </div>

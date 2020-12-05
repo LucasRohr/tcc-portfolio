@@ -16,18 +16,18 @@ export default function Observe() {
           happens to their data after they pass away.
           <br />
           <br />
-          Is it removed from databases? Is it protected? <b>And what if I had the wish to pass to a loved one some
+          Is it removed from databases? Is it protected? <b>And what if I wish of leaving to a loved one some
           important documents and medias, like photos and videos?</b>
           <br />
           <br />
           When we explained that the digital legacy, when integrated in a well designed system, can ensure a safe
-          passage of data from an owner to their heirs, people immediatly answered that the digital legacy
-          question is important.
+          passage of data from an owner to their heirs, 
+          <b> people immediatly realised the importance of Digital Legacy.</b>
           <br />
           <br />
-          And in fact it is. We live in a world full of more digital data everyday. And a lot of it, without
-          destination, can be a huge problem, from servers delays to people trying to access data that is protected by
-          the deceased credentials that they might do not have.
+          And in fact it is. We live in a world full of more digital data everyday. 
+          <b> 3.4 billion people will be connected to social media by 2023 </b>
+          But already, <b>by 2012, around 19.000 Facebook users passed away in the USA.</b> 
         </span>
       </div>
 
