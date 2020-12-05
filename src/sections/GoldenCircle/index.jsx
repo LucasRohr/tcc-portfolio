@@ -17,8 +17,12 @@ export default function GoldenCircle() {
             </div>
           </div>
         </div>
-        <div className="golden-circle itself-right">
-
+        <div className="golden-circle-itself-right">
+          <ul>
+            <li>Because we care about your affection to your memories, information and digital integrity.</li>
+            <li>By developing a safe, practical and descentralized Digital Legacy system.</li>
+            <li>We present you an application where you can store your files and social media creations for your heirs to access after you pass away.</li>
+          </ul>
         </div>
       </div>
     </div>
