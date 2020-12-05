@@ -12,6 +12,7 @@ import Audience from "./sections/Audience";
 import Personas from "./sections/Personas";
 import EmpathyMap from "./sections/Empathy-map";
 import PersonaResearch from "./sections/Persona-research";
+import GoldenCircle from "./sections/GoldenCircle";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <EmpathyMap />
       <Personas />
       <PersonaResearch />
+      <GoldenCircle />
       <End />
     </div>
   );
