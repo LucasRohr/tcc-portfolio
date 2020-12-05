@@ -17,23 +17,19 @@ import GoldenCircle from "./sections/GoldenCircle";
 function App() {
   return (
     <div className="container">
-      {/*
-        <Begin />
-        <Goals />
-        <Observe />
-        <People />
-        <Care />
-        <Solution />
-        <Prototypes />
-        <Audience />
-        <EmpathyMap />
-        <Personas />
-        <PersonaResearch />
-      */}
+      <Begin />
+      <Goals />
+      <Observe />
+      <People />
+      <Care />
+      <Solution />
+      <Prototypes />
+      <Audience />
+      <EmpathyMap />
+      <Personas />
+      <PersonaResearch />
       <GoldenCircle />
-      {/*
-        <End />
-      */}
+      <End />
     </div>
   );
 }
