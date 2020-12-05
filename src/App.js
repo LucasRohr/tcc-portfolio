@@ -12,22 +12,28 @@ import Audience from "./sections/Audience";
 import Personas from "./sections/Personas";
 import EmpathyMap from "./sections/Empathy-map";
 import PersonaResearch from "./sections/Persona-research";
+import GoldenCircle from "./sections/GoldenCircle";
 
 function App() {
   return (
     <div className="container">
-      <Begin />
-      <Goals />
-      <Observe />
-      <People />
-      <Care />
-      <Solution />
-      <Prototypes />
-      <Audience />
-      <EmpathyMap />
-      <Personas />
-      <PersonaResearch />
-      <End />
+      {/*
+        <Begin />
+        <Goals />
+        <Observe />
+        <People />
+        <Care />
+        <Solution />
+        <Prototypes />
+        <Audience />
+        <EmpathyMap />
+        <Personas />
+        <PersonaResearch />
+      */}
+      <GoldenCircle />
+      {/*
+        <End />
+      */}
     </div>
   );
 }
