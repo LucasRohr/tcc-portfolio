@@ -13,6 +13,7 @@ import Personas from "./sections/Personas";
 import EmpathyMap from "./sections/Empathy-map";
 import PersonaResearch from "./sections/Persona-research";
 import GoldenCircle from "./sections/GoldenCircle";
+import Storyboard from "./sections/Storyboard";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
       <Personas />
       <PersonaResearch />
       <GoldenCircle />
+      <Storyboard />
       <End />
     </div>
   );
