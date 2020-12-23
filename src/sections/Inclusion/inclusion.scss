@@ -1,0 +1,75 @@
+@import "../../colors.scss";
+
+.inclusion-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $primary;
+
+  & > .inclusion-title-container {
+    margin-top: 80px;
+    margin-bottom: 50px;
+
+    & > h1 {
+      font-size: 44px;
+      line-height: 42px;
+      text-align: center;
+      color: $white;
+      font-family: "NotoSans Regular";
+      margin-bottom: 16px;
+    }
+
+    & > h2 {
+      font-size: 32px;
+      line-height: 36px;
+      text-align: center;
+      color: $white;
+      font-family: "NotoSans Regular";
+    }
+  }
+
+  & > .inclusion-circles-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 14px;
+    margin-bottom: 50px;
+
+    & > .inclusion-circle {
+      width: 450px;
+      height: 450px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: $white;
+      border-radius: 50%;
+      padding: 100px;
+      transition: 0.3s;
+      margin-bottom: 80px;
+
+      & > h2 {
+        font-size: 28px;
+        line-height: 32px;
+        text-align: center;
+        color: $primary-dark;
+        font-family: "NotoSans Regular";
+      }
+
+      & > p {
+        font-size: 21px;
+        line-height: 32px;
+        text-align: center;
+        color: $black;
+        text-align: center;
+      }
+
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+}
