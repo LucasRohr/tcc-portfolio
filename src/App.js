@@ -14,6 +14,7 @@ import EmpathyMap from "./sections/Empathy-map";
 import PersonaResearch from "./sections/Persona-research";
 import GoldenCircle from "./sections/GoldenCircle";
 import Storyboard from "./sections/Storyboard";
+import Inclusion from "./sections/Inclusion";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       <PersonaResearch />
       <GoldenCircle />
       <Storyboard />
+      <Inclusion />
       <End />
     </div>
   );
