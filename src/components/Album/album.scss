@@ -1,0 +1,49 @@
+.album {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.carousel {
+  height: 70vh;
+  width: 100%;
+  overflow-y: scroll;
+  background-color: white;
+
+  & > img {
+    display: block;
+    width: 90vw;
+    height: auto;
+    margin: 0 auto;
+  }
+}
+
+.description {
+  font-size: 20px;
+  padding-top: 2em;
+  text-align: center;
+}
+
+.pager-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  padding: 2em;
+  width: 50%;
+
+  .pager {
+    all: unset;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    cursor: pointer;
+
+    &.active {
+      background-color: gray;
+    }
+  }
+
+}
