@@ -25,7 +25,6 @@ function App() {
       <People />
       <Care />
       <Solution />
-      <Prototypes />
       <Audience />
       <EmpathyMap />
       <Personas />
@@ -33,6 +32,7 @@ function App() {
       <GoldenCircle />
       <Storyboard />
       <Inclusion />
+      <Prototypes />
       <End />
     </div>
   );
